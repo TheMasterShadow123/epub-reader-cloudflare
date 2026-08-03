@@ -1,0 +1,18 @@
+name = "epub-reader"
+main = "src/index.js"
+compatibility_date = "2026-08-01"
+
+# --- Database (reading progress, stats, book/chapter metadata) ---
+[[d1_databases]]
+binding = "DB"
+database_name = "epub-reader-db"
+database_id = "REPLACE_WITH_YOUR_D1_DATABASE_ID"
+
+# --- Storage (raw epub files, extracted chapter HTML, covers) ---
+[[r2_buckets]]
+binding = "BUCKET"
+bucket_name = "epub-reader-files"
+
+# --- Secrets (do NOT put these here — set them with wrangler) ---
+#   wrangler secret put ADMIN_PASSWORD
+#   wrangler secret put SESSION_SECRET     (any long random string)

@@ -6,7 +6,7 @@ compatibility_date = "2026-08-01"
 [[d1_databases]]
 binding = "DB"
 database_name = "epub-reader-db"
-database_id = "REPLACE_WITH_YOUR_D1_DATABASE_ID"
+database_id = "1018b019-b413-4df8-8e30-4a8923316896"
 
 # --- Storage (raw epub files, extracted chapter HTML, covers) ---
 [[r2_buckets]]

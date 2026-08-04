@@ -1,7 +1,7 @@
 // Thin API client for the epub-reader Worker.
 // Set API_BASE to your deployed Worker URL, e.g. "https://epub-reader.<you>.workers.dev"
 
-const API_BASE = "https://epub-reader.YOUR-SUBDOMAIN.workers.dev";
+const API_BASE = "https://epub-reader.bryanlopez100705.workers.dev/";
 const TOKEN_KEY = "epub_reader_token";
 
 function getToken() {
